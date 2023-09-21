@@ -6,6 +6,8 @@
 
 [![Test](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/test.yml)
 
+[![Test](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/versions.yml/badge.svg)](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/versions.yml)
+
 ## Project #1: Continuous Integration using GitHub Actions of Python Data Science Project
 
 > © Yadong (Hugo) Hu 2023
@@ -14,25 +16,16 @@
 
 <br />
 
-**Duke IDS706 Individual Project 1 Requirements:**
+**Duke IDS706 Week 4 Mini-project:**
 
-The project structure must include the following files:
-- Jupyter Notebook with:
-  - Cells that perform descriptive statistics using Polars or Panda.
-  - Tested by using nbval plugin for pytest
-- Python Script performing the same descriptive statistics using Polars or Panda
-- A lib.py file that shares the common code between the script and notebook
-- Makefile with the following:
-  - Run all tests (must test notebook and script and lib)
-  - Formats code with Python black
-  - Lints code with Ruff
-  - Installs code via:  pip install -r requirements.txt
-- A test_script.py to test script
-- A test_lib.py to test library
-- Pinned requirements.txt
-- GitHub Actions performs all four Makefile commands with badges for each one in the README.md
+Create a GitHub Actions Matrix Build that tests more than one than one version of Python.ions performs all four Makefile commands with badges for each one in the README.md
 
 <br />
+
+![Actions](/.tutorial/actions.png)
+
+**------ Below is the original README.md ------**
+
 
 
 ## Project Description
