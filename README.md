@@ -6,9 +6,8 @@
 
 [![Test](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/test.yml)
 
-[![Test](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/versions.yml/badge.svg)](https://github.com/nogibjj/HugoHu-Project-1/actions/workflows/versions.yml)
 
-## Project #1: Continuous Integration using GitHub Actions of Python Data Science Project
+## Week 4 Mini-project
 
 > © Yadong (Hugo) Hu 2023
 > 
