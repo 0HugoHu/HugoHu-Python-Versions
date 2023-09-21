@@ -1,0 +1,35 @@
+name: Hugo Python Version Test
+on: [push]
+jobs:
+  build:
+    strategy:
+      matrix:
+        python:
+          - 3.7
+          - 3.8
+          - 3.9
+          - 3.10
+          - 3.11
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9 - 3.11
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python }}
+    - name: Install dependencies
+      id: install
+      run: |
+        make install
+    - name: Format code
+      id: format
+      run: |
+        make format
+    - name: Lint with Ruff
+      id: lint
+      run: |
+          make lint
+    - name: Test
+      id: test
+      run: |
+        make test
